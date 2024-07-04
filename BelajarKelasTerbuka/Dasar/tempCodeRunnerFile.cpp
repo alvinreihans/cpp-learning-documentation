@@ -1,1 +1,1 @@
-a
+<< nilai.begin() << endl;

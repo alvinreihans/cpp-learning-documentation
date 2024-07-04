@@ -1,0 +1,10 @@
+{
+    "editor.fontSize":18,
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Discord Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+}

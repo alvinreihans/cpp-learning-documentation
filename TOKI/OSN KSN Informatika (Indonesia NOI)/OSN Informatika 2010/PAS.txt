@@ -1,0 +1,15 @@
+var data:array[1..10000] of longint;
+    n,i,j,temp:longint;
+begin
+  readln(n);
+  for i:=1 to n do readln(data[i]);
+  for i:=1 to n-1 do
+    for j:=i+1 to n do
+      if (data[i]>data[j]) then
+      begin
+        temp:=data[i];
+        data[i]:=data[j];
+        data[j]:=temp;
+      end;
+  for i:=1 to n do writeln(data[i]);
+end.
